@@ -1,0 +1,169 @@
+.Principale {
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    box-shadow: 10px 10px 15px black;
+    border-radius: 5px;
+    width: 70vw;
+    height: 80vh;
+    margin: 15vw;
+    margin-top: 2vw;
+
+}
+
+main .head {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.head article {
+    display: grid;
+    gap: 20px;
+
+
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #CCCCCC;
+}
+
+
+.SHL header,
+.SHL footer {
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 20vw;
+    margin-bottom: 10px;
+
+}
+
+.SHL header button:first-child,
+.SHL header button:last-child {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.SHL header button:nth-child(2) {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.SHL footer button:first-child,
+.SHL footer button:last-child {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.SHL input {
+    width: 10vw;
+}
+
+aside p:first-child {
+    font-size: 1.5em;
+}
+
+.SHC input {
+    justify-content: flex-start;
+    width: 20vw;
+}
+
+.SHC {
+    width: 20vw;
+}
+
+.SHR {
+    margin-left: 2vw;
+}
+
+.SHR input {
+    padding: 10px;
+    border-color: #CCCCCC;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 15vw;
+    margin-left: 10px;
+
+}
+
+.SHR button {
+    border-color: #CCCCCC;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+
+.main {
+    display: flex;
+    margin: 10px;
+
+}
+
+.menu {
+    border-spacing: 10px;
+    color: #337ABA;
+    width: 15vw;
+
+}
+
+li {
+    border-style: groove;
+    padding: 10px;
+    height: 15px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+
+.bibliotheque {
+    display: grid;
+
+    grid-template-columns: repeat(4, 15vw);
+    grid-template-rows: repeat(2, 30vh);
+
+    width: 90vw;
+    height: 80vh;
+    gap: 30px;
+    margin-left: 3vw;
+
+
+}
+
+.bibliotheque article {
+    border-style: groove;
+    justify-content: center;
+    text-align: center;
+    color: #337ABA;
+    border-radius: 5px;
+    height: 300px;
+    width: 175px;
+    margin: 8px;
+    padding: 05px;
+
+}
+
+/*
+.bibliotheque,
+.main,
+.menu,
+.SHR,
+.SHC,
+.SHL,
+header,
+footer {
+    border-style: groove;
+}
+*/

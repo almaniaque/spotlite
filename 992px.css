@@ -1,0 +1,121 @@
+@media only screen and (min-width: 812px) and (max-width: 1135px) {
+
+    .Principale {
+        height: 180vh;
+        margin: 2vw;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-top: 3vw;
+    }
+
+    main .head {
+        display: grid;
+    }
+
+    .head {
+
+        grid-template-columns: 35% 60%;
+
+
+    }
+
+    .head article {
+        display: grid;
+        grid-template-columns: 20vw 30vw;
+
+
+    }
+
+    .main {
+        flex-direction: row;
+        height: 110vh;
+        margin: 0px;
+
+    }
+
+    .SHL footer {
+        justify-content: space-between;
+    }
+
+    .SHL header,
+    .SHL footer {
+        width: 25vw;
+        margin-left: 2vw;
+
+    }
+
+
+    .SHL header button:first-child,
+    .SHL header button:last-child {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .SHL header button:nth-child(2) {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .SHL footer button:first-child,
+    .SHL footer button:last-child {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .SHL input {
+        width: 15vw;
+    }
+
+    .SHC {
+
+        width: 20vw;
+
+    }
+
+    .SHC p {
+        margin: 10px;
+    }
+
+    .SHC input {
+        width: 25vw;
+    }
+
+    .SHR {
+        width: 30vw;
+        justify-items: center;
+        margin-left: 120px;
+    }
+
+    .SHR input {
+        width: 15vw;
+    }
+
+    .menu {
+        width: 20vw;
+        margin: 15px;
+        margin-bottom: 90px;
+        padding: 0px;
+        margin-top: 0px;
+        height: 10vh;
+
+    }
+
+    ul {
+        margin-top: 8px;
+    }
+
+    .bibliotheque article {
+        margin: 3px;
+    }
+
+    .bibliotheque {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0px;
+        margin: 0px;
+        border-spacing: 0px
+    }
+}

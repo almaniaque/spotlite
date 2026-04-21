@@ -1,0 +1,127 @@
+@media only screen and (max-width: 811px) and (min-width: 601px) {
+
+    .Principale {
+        height: 220vh;
+        margin: 2vw;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-top: 3vw;
+    }
+
+    main .head {
+        display: grid;
+    }
+
+    .head {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        width: 75vw;
+        margin: 10px;
+
+    }
+
+    .head article {
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        align-items: flex-end;
+
+
+    }
+
+    .main {
+        flex-direction: row;
+        height: 110vh;
+        margin: 0px;
+
+    }
+
+    .SHL footer {
+        justify-content: space-between;
+    }
+
+    .SHL header,
+    .SHL footer {
+        width: 80vw;
+        margin-left: 2vw;
+
+    }
+
+
+    .SHL header button:first-child,
+    .SHL header button:last-child {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+
+    .SHL header button:nth-child(2) {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .SHL footer button:first-child,
+    .SHL footer button:last-child {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .SHL input {
+        width: 55vw;
+    }
+
+    .SHC {
+        margin-left: 2vw;
+        width: 40vw;
+
+
+    }
+
+    .SHC p {
+        margin: 10px;
+    }
+
+    .SHC input {
+        width: 40vw;
+    }
+
+    .SHR {
+        width: 40vw;
+
+
+    }
+
+    .SHR input {
+        width: 30vw;
+    }
+
+    .menu {
+        width: 30vw;
+        margin: 2vw;
+        margin-bottom: 90px;
+        padding: 0px;
+        text-align: center;
+        height: 10vh;
+        margin-top: 0;
+    }
+
+    ul {
+        margin-top: 8px
+    }
+
+    ;
+
+    .bibliotheque article {
+        margin: 3px;
+    }
+
+    .bibliotheque {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0px;
+        margin: 0px;
+        border-spacing: 0px
+    }
+}
