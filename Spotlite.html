@@ -36,7 +36,7 @@
                         <i class="fa-solid fa-circle-arrow-left"></i>
                     </button>
 
-                    <button type="submit">
+                    <button id="play" type="submit">
                         <i class="fa-solid fa-circle-play"></i>
                     </button>
 
@@ -45,13 +45,13 @@
                     </button>
                 </header>
                 <footer>
-                    <button type="submit">
+                    <button id="moins" type="submit">
                         <i class="fa-solid fa-volume-low"></i>
                     </button>
 
-                    <input type="range">
+                    <input type="range" id="vrange" min="0" max="100" value="50">
 
-                    <button type="submit">
+                    <button id="plus" type="submit">
                         <i class="fa-solid fa-volume-high"></i>
                     </button>
                 </footer>
@@ -61,7 +61,7 @@
                 <section class="SHC">
                     <p>Nom artiste</p>
                     <p>Titre de la chanson</p>
-                    <input type="range">
+                    <input type="range" id="piste" min="0" max="100" value="0">
                 </section>
 
                 <section class="SHR">
@@ -203,7 +203,7 @@
             </section>
         </section>
     </main>
-    <script type="texte/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
