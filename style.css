@@ -8,6 +8,7 @@
     height: 80vh;
     margin: 15vw;
     margin-top: 2vw;
+    background-color: slategray;
 
 }
 
@@ -108,7 +109,7 @@ aside p:first-child {
 
 .menu {
     border-spacing: 10px;
-    color: #337ABA;
+    color: #000000;
     width: 15vw;
 
 }
@@ -146,7 +147,7 @@ ul {
     border-style: groove;
     justify-content: center;
     text-align: center;
-    color: #337ABA;
+    color: #000000;
     border-radius: 5px;
     height: 300px;
     width: 175px;
