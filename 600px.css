@@ -22,7 +22,7 @@
     }
 
 
-    .main {
+    #Main2 {
         flex-direction: column;
         height: 110vh;
 
@@ -79,14 +79,14 @@
     }
 
 
-    .menu {
+    #menu {
         width: 85vw;
         padding: 0px;
         text-align: center;
         margin: 10px;
     }
 
-    .bibliotheque {
+    #bibliotheque {
         display: grid;
 
         justify-items: center;

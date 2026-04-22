@@ -9,6 +9,7 @@
     margin: 15vw;
     margin-top: 2vw;
     background-color: slategray;
+    text-transform: capitalize;
 
 }
 
@@ -64,7 +65,7 @@ button {
     width: 5vw;
 }
 
-aside p:first-child {
+#bibliotheque article p:first-child {
     font-size: 1.5em;
 }
 
@@ -101,13 +102,13 @@ aside p:first-child {
 }
 
 
-.main {
+#Main2 {
     display: flex;
     margin: 10px;
 
 }
 
-.menu {
+#menu {
     border-spacing: 10px;
     color: #000000;
     width: 15vw;
@@ -129,7 +130,7 @@ ul {
 }
 
 
-.bibliotheque {
+#bibliotheque {
     display: grid;
 
     grid-template-columns: repeat(4, 15vw);
@@ -139,11 +140,11 @@ ul {
     height: 80vh;
     gap: 30px;
     margin-left: 3vw;
-
+    font-size: 1.2em;
 
 }
 
-.bibliotheque article {
+#bibliotheque article {
     border-style: groove;
     justify-content: center;
     text-align: center;

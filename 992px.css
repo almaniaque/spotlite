@@ -27,7 +27,7 @@
 
     }
 
-    .main {
+    #Main2 {
         flex-direction: row;
         height: 110vh;
         margin: 0px;
@@ -91,7 +91,7 @@
         width: 15vw;
     }
 
-    .menu {
+    #menu {
         width: 20vw;
         margin: 15px;
         margin-bottom: 90px;
@@ -105,11 +105,11 @@
         margin-top: 8px;
     }
 
-    .bibliotheque article {
+    #bibliotheque article {
         margin: 3px;
     }
 
-    .bibliotheque {
+    #bibliotheque {
         display: grid;
         justify-items: center;
         grid-template-columns: repeat(3, 1fr);
