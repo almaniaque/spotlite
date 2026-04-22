@@ -1,5 +1,4 @@
 let onLecture = true;
-console.log("fonctionnelle")
 
 let listeB = document.createElement("section");
 listeB.setAttribute("id", "Main2")
@@ -134,6 +133,8 @@ function changeIconePlay() {
     }
 };
 
+//parametre de la range du media
+
 audio.addEventListener("timeupdate", () => {
     if (audio.duration) {
         let valeur = (audio.currentTime / audio.duration) * 100;
@@ -144,16 +145,14 @@ audio.addEventListener("timeupdate", () => {
 piste.addEventListener("input", () => {
     let temps = (piste.value / 100) * audio.duration;
     audio.currentTime = temps;
+    document.getElementById("piste").textContent = audio.currentTime && "/" && audio.duration
 });
+
+//parametre de song
 
 let slider = document.getElementById("vrange");
 let plus = document.getElementById("plus");
 let moins = document.getElementById("moins");
-
-
-slider.addEventListener("input", () => {
-    audio.volume = slider.value / 100;
-});
 
 plus.addEventListener("click", () => {
     let valeur = parseInt(slider.value, 10);
@@ -168,6 +167,12 @@ moins.addEventListener("click", () => {
     slider.value = valeur;
     audio.volume = slider.value / 100;
 
+});
+
+// parametre range du song
+
+slider.addEventListener("input", () => {
+    audio.volume = slider.value / 100;
 });
 
 // fonction music suivante/precedente
@@ -186,12 +191,13 @@ pass.addEventListener("click", () => {
     }
 
     audio.src = Bibliotheque[chanson].music;
+    enteteA.textContent = Bibliotheque[chanson].artiste;
+    enteteT.textContent = Bibliotheque[chanson].titre;
     audio.play();
     enRoute = true;
     lecture.innerHTML = '<i class="fa-solid fa-pause"></i>';
 
-    enteteA.textContent = Bibliotheque[chanson].artiste;
-    enteteT.textContent = Bibliotheque[chanson].titre;
+
 });
 
 retour.addEventListener("click", () => {
@@ -203,14 +209,13 @@ retour.addEventListener("click", () => {
     }
 
     audio.src = Bibliotheque[chanson].music;
+    enteteA.textContent = Bibliotheque[chanson].artiste;
+    enteteT.textContent = Bibliotheque[chanson].titre;
     audio.play();
     enRoute = true;
     lecture.innerHTML = '<i class="fa-solid fa-pause"></i>';
 
-    enteteA.textContent = Bibliotheque[chanson].artiste;
-    enteteT.textContent = Bibliotheque[chanson].titre;
+
 });
-
-
 
 // lecture aleatoire
